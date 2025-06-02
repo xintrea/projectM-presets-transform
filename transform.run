@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dirFrom="/opt/projectM/projectMSDL-2.0.0-Linux/presets"
+dirTo="/opt/projectM/projectMSDL-2.0.0-Linux/presets-custom"
+
+./main.py --basic $dirFrom --custom $dirTo
+
